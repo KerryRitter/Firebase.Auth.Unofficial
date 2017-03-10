@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Kerry Ritter</authors>
+    <owners>Kerry Ritter</owners>
+    <projectUrl>https://github.com/KerryRitter/Firebase.Auth.Unofficial</projectUrl>
+    <description>$description$</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Firebase Auth</tags>
+  </metadata>
+</package>
