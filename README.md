@@ -3,6 +3,10 @@ An unofficial package for Firebase Auth, supporting creating users, logging in u
 
 ## Usage
 
+### Install
+
+Install using Nuget: `Install-Package Firebase.Auth.Unofficial`
+
 ### Creating an Account API
 
 To register and get tokens for users, please see the sample [AccountController](https://github.com/KerryRitter/Firebase.Auth.Unofficial/blob/master/TestWebApp/Controllers/AccountController.cs).
