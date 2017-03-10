@@ -31,7 +31,7 @@ namespace TestWebApp
         {
             services.AddMvc();
 
-            FirebaseMvcStartup.Configure(Configuration["FirebaseApiKey"], services);
+            services.AddFirebaseAuthorization(Configuration["FirebaseApiKey"]);
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)

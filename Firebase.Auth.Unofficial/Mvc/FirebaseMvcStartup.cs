@@ -6,7 +6,7 @@ namespace Firebase.Auth.Unofficial.Mvc
 {
     public static class FirebaseMvcStartup
     {
-        public static void Configure(string apiKey, IServiceCollection services, Action<AuthorizationOptions> configure = null)
+        public static void AddFirebaseAuthorization(this IServiceCollection services, string apiKey, Action<AuthorizationOptions> configure = null)
         {
             var config = new FirebaseConfig {ApiKey = apiKey};
 
