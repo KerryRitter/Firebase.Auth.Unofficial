@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firebase.Auth.Unofficial", "Firebase.Auth.Unofficial\Firebase.Auth.Unofficial.csproj", "{F26223EE-1155-4393-8157-4019B936FBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{D1D36522-4B14-4638-B037-7A5E390E2E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F26223EE-1155-4393-8157-4019B936FBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26223EE-1155-4393-8157-4019B936FBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26223EE-1155-4393-8157-4019B936FBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26223EE-1155-4393-8157-4019B936FBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D36522-4B14-4638-B037-7A5E390E2E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D36522-4B14-4638-B037-7A5E390E2E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D36522-4B14-4638-B037-7A5E390E2E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D36522-4B14-4638-B037-7A5E390E2E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
